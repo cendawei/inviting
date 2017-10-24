@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no">
+    <title>岑臻富弥月之喜</title>
+    <link rel="stylesheet" href="/inviting/webroot/plugins/swiper/swiper-3.4.2.min.css">
+    <% if(env === 'development'){ %>
+    <link rel="stylesheet" href="/inviting/webroot/build/css/zhenfu.css">
+    <% } else { %>
+    <link rel="stylesheet" href="/inviting/webroot/build/css/<%= cssMap['zhenfu.css'] %>">
+    <% } %>
+</head>
+<body class="bg">
+<div style="margin: 0 auto; display: none;">
+    <img src="/inviting/webroot/images/zhenfu/share.jpg">
+</div>
+<div id="app"></div>
+<script src="/inviting/webroot/plugins/jquery/jquery-3.2.1.min.js"></script>
+<script src="/inviting/webroot/plugins/jquery/zepto.min.js"></script>
+<script src="/inviting/webroot/plugins/jquery/touch.js"></script>
+<script src="/inviting/webroot/plugins/swiper/swiper-3.4.2.min.js"></script>
+<script src="/inviting/webroot/plugins/weixin/jweixin-1.2.0.js"></script>
+</body>
+</html>

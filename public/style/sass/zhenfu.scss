@@ -1,0 +1,518 @@
+.bg {
+  background-image: url("../../images/zhenfu/p1-bg.png");
+  overflow: hidden;
+  color: #7b5833;
+}
+.fg {
+  background-image: url("../../images/zhenfu/p1-fg.png");
+}
+.clear {
+  clear: both;
+}
+.p1-banner {
+  text-align: center;
+  img {
+    width: 90%;
+  }
+}
+.p1-baby {
+  text-align: center;
+  margin-top: 30px;
+  img {
+    width: 600px;
+    -webkit-animation: baby-scale 5s;
+    animation: baby-scale 5s;
+  }
+}
+@keyframes baby-scale {
+  from {width: 0;}
+  to {width: 600px;}
+}
+@-webkit-keyframes baby-scale {
+  from {width: 0;}
+  to {width: 600px;}
+}
+.p1-left {
+  float: left;
+}
+.p1-right {
+  float: right;
+}
+.p1-lr {
+  margin-top: -100px;
+}
+.p1-toys {
+  text-align: center;
+  position: fixed;
+  bottom: 113px;
+  white-space: nowrap;
+}
+.p1-lb {
+  left: 5px;
+}
+.p1-rb {
+  right: 5px;
+}
+.p1-lrb {
+  position: absolute;
+  bottom: 0;
+}
+.p1-text {
+  color: #363636;
+  font-size: 4em;
+}
+.p2-banner {
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-animation: p2-banner-animation 1s;
+  animation: p2-banner-animation 1s;
+  img {
+    width: 200px;
+  }
+}
+@keyframes p2-banner-animation {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 200px;
+  }
+}
+@-webkit-keyframes p2-banner-animation {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 200px;
+  }
+}
+.p2-center {
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+.p2-right {
+  position: relative;
+  bottom: 250px;
+  float: right;
+  margin-right: 120px;
+}
+.p2-lb {
+  -webkit-animation: p2-lb-animation 1s;
+  animation: p2-lb-animation 1s;
+}
+@keyframes p2-lb-animation {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 5px;
+  }
+}
+@-webkit-keyframes p2-lb-animation {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 5px;
+  }
+}
+.p2-rb {
+  background: url("../../images/zhenfu/p2-rightbottom.png") no-repeat;
+  width: 320px;
+  height: 272px;
+  line-height: 1em;
+  text-align: center;
+  padding-top: 2em;
+  -webkit-animation: p2-rb-animation 1s;
+  animation: p2-rb-animation 1s;
+  p {
+    font-size: 3em;
+  }
+}
+@keyframes p2-rb-animation {
+  from {
+    right: -300px;
+  }
+  to {
+    right: 5px;
+  }
+}
+@-webkit-keyframes p2-rb-animation {
+  from {
+    right: -300px;
+  }
+  to {
+    right: 5px;
+  }
+}
+.p2-text {
+  font-size: 3em;
+  position: absolute;
+  top: 3em;
+  text-align: left;
+  line-height: 0.8em;
+  right: 6em;
+}
+.p3-center {
+  text-align: center;
+  img {
+    width: 90%;
+    -webkit-animation: p3-center-animation 1s;
+    animation: p3-center-animation 1s;
+  }
+}
+@keyframes p3-center-animation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-webkit-keyframes p3-center-animation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+.p3-lb {
+  -webkit-animation: p3-lb-animation 1s;
+  animation: p3-lb-animation 1s;
+}
+.p3-rb {
+  -webkit-animation: p3-rb-animation 1s;
+  animation: p3-rb-animation 1s;
+}
+@keyframes p3-lb-animation {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 5px;
+  }
+}
+@-webkit-keyframes p3-lb-animation {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 5px;
+  }
+}
+@keyframes p3-rb-animation {
+  from {
+    right: -300px;
+  }
+  to {
+    right: 5px;
+  }
+}
+@-webkit-keyframes p3-rb-animation {
+  from {
+    right: -300px;
+  }
+  to {
+    right: 5px;
+  }
+}
+.p3-text {
+  font-size: 3em;
+  margin-top: -150px;
+  position: relative;
+  top: -50px;
+  text-align: center;
+}
+.p4-head {
+  float: left;
+  -webkit-animation: p4-head-animation 1s;
+  animation: p4-head-animation 1s;
+}
+@keyframes p4-head-animation {
+  from {
+    margin-top: -300px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+@-webkit-keyframes p4-head-animation {
+  from {
+    margin-top: -300px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+.p4-photo1 {
+  float: right;
+  width: 500px;
+  height: 750px;
+}
+.p4-photo2 {
+  float: left;
+  width: 400px;
+}
+.p4-text {
+  font-size: 2.5em;
+  float: left;
+  padding-left: 2em;
+  margin-top: -6em;
+  -webkit-animation: p4-text-animation 1s;
+  animation: p4-text-animation 1s;
+}
+@keyframes p4-text-animation {
+  from {
+    margin-left: 100px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+@-webkit-keyframes p4-text-animation {
+  from {
+    margin-left: 100px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+.p4-rbu {
+  float: right;
+  -webkit-animation: p4-rbu-animation 1s;
+  animation: p4-rbu-animation 1s;
+}
+@keyframes p4-rbu-animation {
+  from {
+    margin-right: 100px;
+  }
+  to {
+    margin-right: 0;
+  }
+}
+@-webkit-keyframes p4-rbu-animation {
+  from {
+    margin-right: 100px;
+  }
+  to {
+    margin-right: 0;
+  }
+}
+.p4-rb {
+  right: 1em;
+  -webkit-animation: p4-rb-animation 1s;
+  animation: p4-rb-animation 1s;
+}
+@keyframes p4-rb-animation {
+  from {
+    bottom: -100px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+@-webkit-keyframes p4-rb-animation {
+  from {
+    bottom: -100px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+.p5-head {
+  float: right;
+  -webkit-animation: p5-head-animation 1s;
+  animation: p5-head-animation 1s;
+}
+@keyframes p5-head-animation {
+  from {
+    margin-right: -100px;
+  }
+  to {
+    margin-right: 0;
+  }
+}
+@-webkit-keyframes p5-head-animation {
+  from {
+    margin-right: -100px;
+  }
+  to {
+    margin-right: 0;
+  }
+}
+.p5-photo1 {
+  float: left;
+  margin-left: 1em;
+  width: 380px;
+  height: 460px;
+  margin-top: 3em;
+}
+.p5-photo2 {
+  float: right;
+  margin-right: 1em;
+  width: 380px;
+  height: 400px;
+}
+.p5-text {
+  font-size: 2.5em;
+  float: left;
+  padding-left: 2em;
+  -webkit-animation: p5-text-animation 1s;
+  animation: p5-text-animation 1s;
+}
+@keyframes p5-text-animation {
+  from {
+    margin-left: 100px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+@-webkit-keyframes p5-text-animation {
+  from {
+    margin-left: 100px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+.p6-center {
+  position: relative;
+  top: -300px;
+  -webkit-animation: p6-center-animation 1s;
+  animation: p6-center-animation 1s;
+}
+@keyframes p6-center-animation {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -300;
+  }
+}
+@-webkit-keyframes p6-center-animation {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -300;
+  }
+}
+.p6-centerup {
+  position: relative;
+  top: -1100px;
+}
+.p6-text {
+  font-size: 2.5em;
+  line-height: 1em;
+  text-align: center;
+  position: relative;
+  top: -1100px;
+}
+.down-gif {
+  width: 100%;
+  text-align: center;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  animation: down-gif-animate 1s infinite;
+  -webkit-animation: down-gif-animate 1s infinite;
+  img {
+    width: 100px;
+  }
+}
+@keyframes down-gif-animate {
+  from {
+    bottom: 0em;
+  }
+  to {
+    bottom: 10em;
+  }
+}
+@-webkit-keyframes down-gif-animate {
+  from {
+    bottom: 0em;
+  }
+  to {
+    bottom: 10em;
+  }
+}
+.form-title {
+  font-size: 5em;
+}
+.form-subtitle {
+  font-size: 3em;
+}
+.form-control {
+  input {
+    width: 80%;
+    font-size: 3em;
+    border: 3px solid #7b5833;
+    color: #000;
+  }
+  .input-mrt {
+    margin-top: 2em;
+  }
+  .input-text {
+    text-indent: 1em;
+    line-height: 2em;
+  }
+  .input-button {
+    border-radius: 45px;
+    background-color: #f5f0fa;
+    height: 3em;
+  }
+}
+.location {
+  margin-top: 5em;
+  img {
+    width: 18em;
+  }
+}
+.p3-pic1 {
+  position: relative;
+  top: -44em;
+  width: 80% !important;
+}
+.p4-pic1 {
+  position: relative;
+  width: 70%;
+  top: -35em;
+  left: 5em;
+}
+.p4-pic2 {
+  position: relative;
+  top: -29em;
+  width: 60%;
+  left: 5em;
+}
+.p5-pic1 {
+  position: relative;
+  width: 65%;
+  left: 4em;
+  top: -29em;
+}
+.p5-pic2 {
+  position: relative;
+  width: 60%;
+  top: -28em;
+  left: 5em;
+}
+.p5-pic3 {
+  position: relative;
+  width: 75%;
+  top: -27em;
+  left: 3em;
+}
+.zhenfu-admin {
+  background: #ffffff;
+  text-align: center;
+  font-size: 3em;
+}
+.admin-table {
+  margin:0 auto;
+  overflow: auto;
+}

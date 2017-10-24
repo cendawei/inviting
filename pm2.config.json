@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "inviting",
+      "script": "./www.js",
+      "watch": false,
+      "instances": 0,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "dev-vue": "webpack -w --progress --hide-modules --config configs/webpack.dev.config.js"
+  },
+  "author": "cdw",
+  "license": "ISC"
+}
