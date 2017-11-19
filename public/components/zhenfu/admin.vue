@@ -1,5 +1,5 @@
 <template>
-    <div class="zhenfu-admin" style="padding-top: 2em;">
+    <div class="zhenfu-admin" style="padding-top: 2em; padding-bottom: 1em;">
         <table border="1" cellpadding="20" class="admin-table">
             <tr>
                 <th>姓名</th>
@@ -24,12 +24,9 @@
             }
         },
         mounted() {
-            const that = t
-            his
             this.getList()
             this.$nextTick(() => {
-                $('.zhenfu-admin').height($(window).height())
-                $('.admin-table').maxHeight($(window).height() * 0.85)
+                $('.zhenfu-admin').height($(window).height() * 0.9)
             })
         },
         methods: {
