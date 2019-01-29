@@ -1,6 +1,6 @@
 {
-  "name": "zhenfu",
-  "version": "0.0.0",
+  "name": "inviting",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "cross-env NODE_ENV=production node ./www.js",

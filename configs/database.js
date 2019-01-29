@@ -14,6 +14,14 @@ const baseConfig = {
 
 module.exports = {
     'development': defaultsDeep({}, baseConfig),
-    'testing': defaultsDeep({}, baseConfig),
-    'production': defaultsDeep({}, baseConfig),
+    'testing': defaultsDeep({
+        host: "120.78.95.62",
+        username: 'inviting',
+        password: 'HVGfFbDqlH'
+    }, baseConfig),
+    'production': defaultsDeep({
+        host: "120.78.95.62",
+        username: 'inviting',
+        password: 'HVGfFbDqlH'
+    }, baseConfig),
 }
